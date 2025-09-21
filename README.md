@@ -110,14 +110,17 @@ Each triggered rule adds points:
 .read sql/01_load_sample_data.sql
 
 3) Genrate Flags and Scores
+```sql
 .read sql/02_rules_flags.sql
 .read sql/03_risk_scoring.sql
 .read sql/04_export_views.sql
 
 4) See Results
+```sql
 SELECT * FROM v_refund_risk;
 
 5) Export for Excel or BI
+```sql
 sqlite3 refund.db -header -csv "SELECT * FROM v_refund_risk;" > data/refund_risk.csv
 
 
