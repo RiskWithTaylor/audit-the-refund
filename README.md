@@ -50,6 +50,8 @@ audit-the-refund/
 
 └─ README.md
 
+![Refund Risk Dashboard](dashboards/dashboard_screenshot.png)
+
 
 ---
 
